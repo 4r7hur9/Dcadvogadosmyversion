@@ -39,11 +39,10 @@ ol {
   flex-direction: row;
   gap: 20px;
   color: white;
-  font-weight: 800;
+  font-weight: 600;
 }
 .container-nav-header ul li {
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
+  border-bottom: 3px solid transparent;
   padding: clamp(7px, 1.5vh, 10px) 0;
 }
 
