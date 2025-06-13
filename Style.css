@@ -20,7 +20,13 @@ ol {
 }
 /* Container Header */
 .container-header {
-  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; /* ou outra cor de fundo */
+  z-index: 1000; /* garante que fique acima dos outros elementos */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* opcional: sombra para destaque */
   background-color: #1a2b4b;
   border-bottom: 25px solid #b68954;
 }
@@ -51,4 +57,11 @@ ol {
   border-top-color: #b68954;
   border-bottom-color: #b68954;
 }
-/* Container Banner Principal*/
+@media (max-width: 768px) {
+  .container-div-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
