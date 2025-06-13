@@ -143,13 +143,27 @@
 
     <!-- Quem somos -->
 
-    <section class="relative bg-[url('assets/banner-sobre-mim.png')] bg-cover bg-center min-h-screen flex flex-col items-center">
+    <section
+      class="relative bg-[url('assets/banner-sobre-mim.png')] bg-cover bg-center min-h-screen flex flex-col items-center"
+    >
       <div class="absolute inset-0 bg-[rgba(26,43,75,0.8)] z-0"></div>
-      <div class="relative z-10 w-full gap-10 justify-center flex flex-col items-center">
-        <img src="/assets/advogado.png" class="w-150" alt="foto advogado" />
-        <h2 class="text-[45px] font-bold text-white border-b-[8px] border-[#b1793a]">Quem Somos</h2>
-        <div class="flex flex-col mx-50 gap-6 text-justify font-light text-[20px] leading-8 text-white">
-          <p class="">
+      <div
+        class="relative z-10 w-full gap-10 py-[80px] justify-center flex flex-col items-center"
+      >
+        <img
+          src="/assets/advogado.png"
+          class="w-80 h-80 border-[3px] border-[#b1793a] rounded-full object-cover"
+          alt="foto advogado"
+        />
+        <h2
+          class="text-[45px] font-bold text-white border-b-[8px] border-[#b1793a]"
+        >
+          Quem Somos
+        </h2>
+        <div
+          class="flex flex-col mx-50 gap-6 text-justify font-light text-[22px] leading-7 text-white"
+        >
+          <p>
             O escritório DC Advogados Associados foi fundado por Dr. Carlos
             Duarte, um advogado visionário com mais de 20 anos de experiência
             nas mais diversas áreas do Direito. Desde sua fundação, nosso
@@ -184,69 +198,101 @@
             necessário em momentos decisivos. Seja qual for o desafio, estamos
             prontos para enfrentá-lo ao seu lado.
           </p>
-          <p>“Sua confiança é a nossa maior vitória.”</p>
+          <p class="font-bold">“Sua confiança é a nossa maior vitória.”</p>
         </div>
-        <a href="#">Quero saber mais</a>
+        <a
+          class="bg-[#c18d4b] text-[20px] inline-block text-white font-semibold px-6 py-2 rounded-md shadow-md hover:bg-[#b1793a] transition duration-300"
+          href="#"
+          >Quero saber mais</a
+        >
       </div>
     </section>
 
     <!-- números -->
     <section>
-      <div>
-        <div>
-          <h3>+215</h3>
-          <p>Mais de 215 clientes atendidos</p>
+      <div
+        class="bg-[#b68954] text-white flex flex-row justify-center pb-4 gap-8 text-center items-center"
+      >
+        <div class="w-60 h-60 flex flex-col justify-center">
+          <h3 class="text-[88px] font-bold">+215</h3>
+          <p class="text-[16px]">
+            Mais de 215 clientes<br />
+            atendidos
+          </p>
         </div>
 
-        <div>
-          <h3>+250</h3>
-          <p>Mais de 250 casos resolvidos</p>
+        <div class="w-60 h-60 flex flex-col items-center justify-center">
+          <h3 class="text-[88px] font-bold">+250</h3>
+          <p class="text-[16px]">Mais de 250 casos <br />resolvidos</p>
         </div>
 
-        <div>
-          <h3>+20</h3>
-          <p>Mais de 20 anos de experiência no Direito</p>
+        <div class="w-60 h-60 flex flex-col items-center justify-center">
+          <h3 class="text-[88px] font-bold">+20</h3>
+          <p class="text-[16px]">Mais de 20 anos de experiência no Direito</p>
         </div>
 
-        <div>
-          <h3>+10</h3>
-          <p>Equipe com mais de 10 especialistas do Direito</p>
+        <div class="w-60 h-60 flex flex-col items-center justify-center">
+          <h3 class="text-[88px] font-bold">+10</h3>
+          <p class="text-[16px]">
+            Equipe com mais de 10 especialistas do Direito
+          </p>
         </div>
       </div>
     </section>
 
     <!-- depoimentos -->
-    <section>
-      <div>
-        <h2>Depoimentos</h2>
-        <div>
-          <div>
-            <img src="./assets/aspas.png" alt="aspas" />
-            <img src="./assets/usuario.png" alt="usuario" />
-            <img src="./assets/estrelas.png" alt="estrelas" />
-            <h3>João Silva</h3>
-            <p>
+    <section class="pb-20">
+      <div class="flex flex-col justify-center items-center">
+        <h2 class="mb-20 mt-20 text-[45px] font-bold text-[#1a2b4b]">Depoimentos</h2>
+        <div class="flex flex-row gap-20 justify-center items-center">
+          <div
+            class="relative border-[2px] border-[#b68954] rounded-2xl w-70 h-90 px-6 flex flex-col gap-4 items-center justify-center text-center"
+          >
+            <img
+              src="./assets/aspas.png"
+              class="w-[80px] absolute -top-10"
+              alt="aspas"
+            />
+            <img src="./assets/usuario.png" class="w-[100px]" alt="usuario" />
+            <img src="./assets/estrelas.png" class="w-[150px]" alt="estrelas" />
+            <h3 class="font-bold text-[20px]">João Silva</h3>
+            <p class="text-[16px] leading-5">
               O atendimento foi excepcional e o resultado superou as minhas
-              expectativas. Recomendo muito!
+              expectativas.
             </p>
           </div>
 
-          <div>
-            <img src="./assets/aspas.png" alt="aspas" />
-            <img src="./assets/usuario.png" alt="usuario" />
-            <img src="./assets/estrelas.png" alt="estrelas" />
-            <h3>Maria Oliveira</h3>
-            <p>
+          <div
+            class="relative border-[2px] border-[#b68954] rounded-2xl w-70 h-90 px-6 flex flex-col gap-4 items-center justify-center text-center"
+          >
+            <img
+              src="./assets/aspas.png"
+              class="w-[80px] absolute -top-10"
+              alt="aspas"
+            />
+            <img src="./assets/usuario.png" class="w-[100px]" alt="usuario" />
+            <img src="./assets/estrelas.png" class="w-[150px]" alt="estrelas" />
+            <h3 class="font-bold text-[20px]">Maria Oliveira</h3>
+            <p class="text-[16px] leading-5">
               Resolvi um caso complexo com a ajuda da equipe. Muito obrigada!
             </p>
           </div>
 
-          <div>
-            <img src="./assets/aspas.png" alt="aspas" />
-            <img src="./assets/usuario.png" alt="usuario" />
-            <img src="./assets/estrelas.png" alt="estrelas" />
-            <h3>Ana Santos</h3>
-            <p>Excelentes profissionais, sempre disponíveis para ajudar.</p>
+          <div
+            class="relative border-[2px] border-[#b68954] rounded-2xl w-70 h-90 px-6 flex flex-col gap-4 items-center justify-center text-center"
+          >
+            <img
+              src="./assets/aspas.png"
+              class="w-[80px] absolute -top-10"
+              alt="aspas"
+            />
+            <img src="./assets/usuario.png" class="w-[100px]" alt="usuario" />
+            <img src="./assets/estrelas.png" class="w-[150px]" alt="estrelas" />
+            <h3 class="font-bold text-[20px]">Ana Santos</h3>
+            <p class="text-[16px] leading-5">
+              Excelentes profissionais, <br />
+              sempre disponíveis <br />para ajudar.
+            </p>
           </div>
         </div>
       </div>
